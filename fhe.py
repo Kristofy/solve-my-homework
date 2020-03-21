@@ -142,7 +142,7 @@ is_up_to_date = download(data)
 if(not is_up_to_date):
     construct_db(data)
 
-string = input("Adj a szöveg egy részét: ")
+string = input("Add meg a szöveg egy részét: ")
 
 find(string, data)
 
